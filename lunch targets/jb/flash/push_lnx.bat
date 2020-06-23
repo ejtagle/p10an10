@@ -1,0 +1,1 @@
+nvflash.exe --bl bootloader.bin --download 6 boot.img --go

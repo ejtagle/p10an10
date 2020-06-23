@@ -1,0 +1,13 @@
+#
+# system.prop for n10 
+#
+
+#
+# 3G Additions
+#
+picasso.3g=true
+rild.libpath=/system/lib/libhuaweigeneric-ril.so
+rild.libargs=-d /dev/ttyUSB2 
+ro.pad.features.modem=true 
+ro.product.model=DVC N10
+

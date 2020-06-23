@@ -1,0 +1,1 @@
+nvflash.exe --bl bootloader.bin --download 8 system.img --go

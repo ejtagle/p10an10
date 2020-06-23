@@ -1,0 +1,1 @@
+fastboot -i 0x955 -b 0x10000000 -c "mem=1024M@0M usbcore.old_scheme_first=1 console=/dev/ttyGS0 tegrapart=recovery:300:a00:800,boot:d00:1000:800,mbr:1d00:200:800,system:1f00:1dd00:800,cache:1fc00:12500:800,misc:32100:1400:800,staging:33600:1f400:800,userdata:52b00:6e0500:800" boot %1.img
